@@ -7,8 +7,7 @@ arch:
 services:
   - docker
   - postgresql
-addons:
-  mariadb: '10.4'
+  - mariadb
 
 env:
   global:
