@@ -6,9 +6,9 @@ arch:
   - arm64
 services:
   - docker
-  - postgresql
 addons:
   mariadb: '10.4'
+  postgresql: '12'
 
 env:
   global:
